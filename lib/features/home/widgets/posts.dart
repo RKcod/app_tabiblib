@@ -17,11 +17,11 @@ class Posts extends StatelessWidget {
       AppLocalizations.of(context)!.carouselText4
     ];
 
-    var images = [
-      "assets/images/carousel1.png",
-      "assets/images/carousel2.png",
-      "assets/images/carousel3.png",
-      "assets/images/carousel4.png"
+    List<Map<String, dynamic>> images = [
+      {'img': "assets/images/carousel1.png", "width": 100, "height": 130},
+      {'img': "assets/images/carousel2.png", "width": 100, "height": 130},
+      {'img': "assets/images/carousel3.png", "width": 100, "height": 100},
+      {'img': "assets/images/carousel4.png", "width": 100, "height": 130},
     ];
 
     return CarouselSlider.builder(
@@ -50,9 +50,9 @@ class Posts extends StatelessWidget {
                 width: 16,
               ),
               Image.asset(
-                images[index],
-                width: 100,
-                height: 100,
+                images[index]["img"].toString(),
+                width: images[index]["width"].toDouble(),
+                height: images[index]["height"].toDouble(),
               )
             ],
           ),
