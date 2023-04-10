@@ -31,7 +31,7 @@ class ProfileView extends ConsumerWidget {
               height: 32,
             ),
             CustomCard(
-              image: "assets/images/family.png",
+              image: "assets/images/profil.png",
               title: "Le saviez-vous ?",
               subtitle:
                   "Vous pouvez aussi prendre des rendez-vous pour vos proches en leur créant des profils dédiées.",

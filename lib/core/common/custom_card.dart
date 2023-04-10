@@ -26,7 +26,7 @@ class CustomCard extends StatelessWidget {
         children: [
           Image.asset(
             image,
-            width: 200,
+            width: 250,
             height: 200,
           ),
           const SizedBox(
@@ -47,7 +47,7 @@ class CustomCard extends StatelessWidget {
             textAlign: TextAlign.center,
           ),
           const SizedBox(
-            height: 32,
+            height: 22,
           ),
           TextButton(
             onPressed: onPressed,

@@ -38,7 +38,7 @@ class LoginController extends ChangeNotifier {
         "user",
         UserModel(
                 name: "Mohamed",
-                firstName: "Alzheimer",
+                firstName: "Belaiouer",
                 gender: Gender.female,
                 email: emailController.text,
                 password: passwordController.text,
